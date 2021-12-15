@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="s1" rel="stylesheet" href="./src/style1.css">
     <link id="s2" rel="stylesheet" href="./src/style2.css" disabled=true>
-</head>
-<body>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet"><!--Fonte: Lato-->
+    
+    
+
+ </head>
+
+ <body>
     <div id="main">
         <header>
                 <nav>
@@ -20,6 +28,8 @@
 
         <div id="menu">
         <div class="menu-side left">
+
+          <!--------------------------------------- SESSÃO 1- STARTERS  ------------------------------------>
             <section id="starters">
               <h2>Starters</h2>
               <dl>
@@ -43,7 +53,9 @@
                 </dd>
               </dl>
             </section>
+            <!--------------------------------------- SESSÃO 1- FIM  ------------------------------------>
 
+            <!--------------------------------------- SESSÃO 2- SOUPS AND SALADS  ------------------------------------>
             <section id="soupssalads">
               <h2>Soups and Salads</h2>
               <dl>
@@ -65,11 +77,15 @@
                 </dd>
               </dl>
             </section>
-        </div>
+            <!--------------------------------------- SESSÃO 2- FIM  ------------------------------------>
+        </div> <!--classe da div= "menu-side left"-->
+       
+       
         <div id="vertical-line"></div>
 
          
         <div class="menu-side right">
+          <!--------------------------------------- SESSÃO 3- ENTREES  ------------------------------------>
             <section id="entrees">
               <h2>Entrees</h2>
               <dl>
@@ -95,7 +111,9 @@
                 </dd>
               </dl>
             </section>
+            <!--------------------------------------- SESSÃO 3 - FIM  ------------------------------------>
 
+            <!--------------------------------------- SESSÃO 4- DESSERTS  ------------------------------------>
             <section id="desserts">
               <h2>Desserts</h2>
               <dl>
@@ -113,17 +131,20 @@
                 </dd>
               </dl>
             </section>
-        </div>
-      </div>
+            <!--------------------------------------- SESSÃO 4- FIM  ------------------------------------>
+
+        </div> <!--classe da div ="menu-side right"-->
+      </div> <!-- classe da div= "menu"-->
 
         <footer>
             <address>
-                Located at 395 Iowa Street.
+               Located at 395 Iowa Street.
                 <br>
                 Open to the public on the 2nd Wednesday and 3rd Tuesday of every February, 11:30am-1:30pm.
             </address>
         </footer>
-    </div>
+    </div> <!-- classe da div= "main"-->
+    
     <script>
             function changeToOne() {
                 const s1 = document.getElementById('s1');
