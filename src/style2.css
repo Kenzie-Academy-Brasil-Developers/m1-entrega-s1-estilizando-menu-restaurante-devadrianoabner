@@ -47,8 +47,7 @@ dd::after {content: " "; display: block; clear: both; margin-bottom: 15px;}
 footer{
    display: flex;
    justify-content: flex-end;
-  
-}
+  }
 
 #starters{
    border: black 2px solid;
